@@ -1,0 +1,47 @@
+#root {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+.navbar {
+  position: absolute;
+  display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 1%;
+  z-index: 5;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+
+  padding: 0;
+
+}
+.navbar ul li {
+  margin: 0 50px; /* add margin to the left and right */
+  padding: 0;
+  flex: 1; /* distribute the remaining space evenly among the li elements */
+  text-align: center; /* center the text in each li */
+}
+
+.a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 600;
+  padding: 10px 0;
+  border-bottom: 2px solid transparent;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.light-mode {
+    background-color: #fff;
+    color: #222;
+  }
+  

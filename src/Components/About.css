@@ -1,0 +1,28 @@
+.subtitle{
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    z-index: 5;
+}
+h1 {
+    font-family: 'Space Mono', monospace;
+    font-size: clamp(1rem, 5vw, 5rem);
+    color: white;
+    padding: 0rem clamp(1rem, 2vw, 3rem);
+    border-radius: clamp(0.4rem, 0.75vw, 1rem);
+    display: block;
+    padding: 0;
+    margin: 0;
+    margin-right: 100px;
+    font-family: 'Josefin Sans', sans-serif;
+    z-index: 5;
+    
+
+
+  }
+  
+.light-mode {
+    background-color: #fff;
+    color: #222;
+  }
+  
