@@ -12,7 +12,7 @@ function About (): JSX.Element {
           
             clearInterval(interval as NodeJS.Timeout);
           
-            const target = event.target as HTMLElement; // add type assertion here
+            const target = event.target as HTMLElement; 
           
             interval = setInterval(() => {
               target.innerText = target.innerText

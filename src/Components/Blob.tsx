@@ -3,7 +3,7 @@ import './Blob.css';
 
 const Blob = () => {
   useEffect(() => {
-    const blob = document.getElementById("blob");
+    const blob = document.getElementById("blob") as HTMLElement;
 
     window.onpointermove = event => {
       const { clientX, clientY } = event;
