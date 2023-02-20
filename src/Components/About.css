@@ -1,3 +1,6 @@
+#root{
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
 .subtitle{
     position: absolute;
     left: 5%;
@@ -16,6 +19,9 @@ h1 {
     margin-right: 100px;
     font-family: 'Josefin Sans', sans-serif;
     z-index: 5;
+    -webkit-user-select: none;
+    user-select: none;
+    
     
 
 
